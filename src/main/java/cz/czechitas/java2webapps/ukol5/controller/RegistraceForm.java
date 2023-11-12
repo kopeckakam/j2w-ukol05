@@ -2,11 +2,9 @@ package cz.czechitas.java2webapps.ukol5.controller;
 
 import jakarta.validation.constraints.*;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.format.annotation.NumberFormat;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Date;
 
 public class RegistraceForm {
 

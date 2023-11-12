@@ -31,11 +31,11 @@
         <label for="pohlavi" class="radek">Pohlaví:</label>
         <div>
             <input type="radio" id="pohlavi:divka" name="pohlavi" value="dívka">
-            <label for="pohlavi">dívka</label>
+            <label for="pohlavi:divka">dívka</label>
         </div>
         <div>
             <input type="radio" id="pohlavi:chlapec" name="pohlavi" value="chlapec">
-            <label for="pohlavi">chlapec</label>
+            <label for="pohlavi:chlapec">chlapec</label>
         </div>
         [@spring.bind "form.pohlavi"/]
         <div class="error">[@spring.showErrors "<br>"/]</div>
